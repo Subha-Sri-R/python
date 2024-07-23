@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electron App</title>
+  <link rel="stylesheet" href="newst.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+  
+  <!-- <div id="paySection">
+    <h2>Enter the Amount</h2>
+    <input type="number" id="amountInput" placeholder="Enter amount">
+    <button id="payButton">Pay</button>
+    <div id="result"></div>
+  </div>
+  <div class="inputbox">
+    <input required="required" type="text">
+    <span>Username</span>
+    <i></i>
+</div> -->
+<div id="paySection" class="input-container">
+  <input required="" id="amountInput" type="text">
+  <label class="label" for="input">Enter Amount</label>
+  <div class="underline"></div>
+  <div class="sideline"></div>
+  <div class="upperline"></div>
+  <div class="line"></div>
+</div>
+
+<div  class="container">
+<button id="payButton" class="btn"> Pay
+</button>
+
+
+</div>
+<div id="result" class="result"></div>
+
+  <div id="result"></div>
+  <div id="totalAmount"></div> Add this element to display total amount
+  <script src="renderer.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/quagga/dist/quagga.min.js"></script>
+</body>
+</html>
